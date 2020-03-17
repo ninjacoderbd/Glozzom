@@ -1,0 +1,43 @@
+@media(max-width:992px) {
+    #photoGallary img {
+        min-height: 200px;
+    }
+}
+
+
+@media(max-width:768px) {
+    #photoGallary img {
+        min-height: 150px;
+    }
+}
+@media(max-width:500px) {
+    
+    #getStarted p{
+        font-size: 18px;
+    }
+    
+}
+
+@media(max-width:480px) {
+    #getStarted .col{
+        padding-top: 20px;
+    }
+    #showCase h5 {
+        font-size: 35px;
+    }
+    #showCase p {
+        font-size: 16px;
+    }
+    
+    #getStarted h2{
+        font-size: 27px;
+    }
+    
+}
+@media(max-width:390px){
+    #getStarted{
+        min-height: 300px;
+        overflow: hidden;
+    }
+}
+

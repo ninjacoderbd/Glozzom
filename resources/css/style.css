@@ -1,0 +1,157 @@
+/* ============================== */
+/* BASIC SETUP */
+/* ============================== */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background:#fff;
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    background-color: black;
+    color:red;
+}
+.navbar{
+    background: #000;
+}
+.navbar .nav-item{
+    padding-left: 1em;
+    text-transform: uppercase;
+}
+.carousel-item{
+    height: 450px;
+}
+#carousel .carousel-caption h5{
+    color:#fff;
+}
+.carouselImg1{
+    background: url(img/image1.jpeg) no-repeat center;
+    background-size:cover;
+}
+.carouselImg2{
+    background: url(img/image2.jpeg) no-repeat;
+    background-size:cover;
+}
+.carouselImg3{
+    background: url(img/image3.jpeg) no-repeat;
+    background-size:cover;
+}
+#homeIcon .fa{
+    font-size: 50px;
+}
+#getStarted{
+    background: url(img/bg1.jpeg)no-repeat center;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 250px;
+}
+#getStarted .darkOverlay{
+    background: rgba(23, 35, 69, 0.52);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#homeVideo{
+    background: url(img/people.jpeg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 250px;
+}
+
+#homeVideo .darkOverlay{
+    background: rgba(23, 35, 69, 0.52);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#homeVideo .fa{
+    font-size: 50px;
+    color: #ebc0c0
+}
+#photoGallary img{
+    min-height: 250px
+}
+#homeFooter{
+    background: #000;
+}
+
+
+/*about us age css*/
+#aboutHead{
+    background: url(img/image1.jpeg)no-repeat center ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 250px;
+}
+
+#aboutHead .darkOverlay{
+    background: rgba(23, 35, 69, 0.52);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.fa{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+#testimonial .slick-next:before {
+    color: #000;
+}
+#testimonial .slick-prev:before {
+    color: #000;
+}
+#testimonial p,footer{
+    margin:0px 25px;
+}
+/*Services*/
+#serviceHead{
+    background: url(img/image5.jpeg)no-repeat center ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 250px;
+}
+
+#serviceHead .darkOverlay{
+    background: rgba(23, 35, 69, 0.52);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#servicePlan .fa{
+    font-size: 15px;
+}
+
+/*Blog page*/
+
+#blogHead{
+    background: url(img/bg1.jpeg)no-repeat center ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 250px;
+}
+
+#blogHead .darkOverlay{
+    background: rgba(23, 35, 69, 0.52);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
